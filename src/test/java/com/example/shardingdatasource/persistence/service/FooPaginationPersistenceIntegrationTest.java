@@ -1,6 +1,6 @@
 package com.example.shardingdatasource.persistence.service;
 
-import config.PersistenceJPAConfig;
+import com.example.shardingdatasource.config.PersistenceJPAConfig;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -9,8 +9,7 @@ import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.context.support.AnnotationConfigContextLoader;
-import persistence.model.Foo;
-import persistence.service.FooService;
+import com.example.shardingdatasource.persistence.model.Foo;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
